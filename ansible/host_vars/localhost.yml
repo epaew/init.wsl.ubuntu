@@ -1,0 +1,7 @@
+global:
+  dirs:
+    home: /home/ryo
+    dotfiles: /home/ryo/dotfiles
+    workspace: /home/ryo/workspace
+  domains:
+    github: github.com

@@ -2,6 +2,3 @@
 - hosts: localhost
   roles:
     - base
-    - neovim
-    - tmux
-    - zsh
