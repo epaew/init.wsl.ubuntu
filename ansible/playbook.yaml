@@ -4,6 +4,8 @@
   roles:
     - base
     - neovim
+    - nodenv
+    - rbenv
     - tmux
     - workspace
     - zsh
