@@ -1,5 +1,7 @@
 #!/bin/sh -ux
 
+cd "${0%/*}" # Move to this script's directory.
+
 umask 022
 if ! which ansible-playbook >/dev/null; then
   sudo apt install -y python3-pip

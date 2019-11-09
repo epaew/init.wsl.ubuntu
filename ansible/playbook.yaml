@@ -6,6 +6,7 @@
     - neovim
     - nodenv
     - rbenv
+    - rust
     - tmux
     - workspace
     - zsh
