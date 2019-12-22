@@ -3,6 +3,7 @@
   connection: local
   roles:
     - base
+    - docker
     - neovim
     - nodenv
     - rbenv
