@@ -9,5 +9,4 @@
     - rbenv
     - rust
     - tmux
-    - workspace
     - zsh
