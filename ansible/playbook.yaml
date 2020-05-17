@@ -2,11 +2,16 @@
 - hosts: local
   connection: local
   roles:
-    - base
-    - docker
-    - neovim
-    - nodenv
-    - rbenv
-    - rust
-    - tmux
-    - zsh
+    - role: docker
+    - role: fzf
+      vars:
+        fzf_root: "{{ ansible_env.HOME }}/.cache/dein/repos/github.com/junegunn/fzf"
+    - role: nodenv
+    - role: rust
+    - role: private/common
+    - role: private/dotfiles
+    - role: private/neovim
+    - role: private/rbenv
+    - role: private/ssh
+    - role: private/tmux
+    - role: private/zsh
